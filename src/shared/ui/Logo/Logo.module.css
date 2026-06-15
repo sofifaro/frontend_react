@@ -1,0 +1,41 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-8);
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--color-navy);
+  cursor: default;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.logo[data-is-button='true'],
+button.logo {
+  cursor: pointer;
+}
+
+.logo--light {
+  color: #fff;
+}
+
+.mark {
+  flex-shrink: 0;
+}
+
+.wordmark {
+  font-weight: var(--weight-extrabold);
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+/* sizes */
+.logo--sm .wordmark { font-size: var(--text-md); }
+.logo--sm .mark { width: 22px; height: 22px; }
+
+.logo--md .wordmark { font-size: var(--text-lg); }
+.logo--md .mark { width: 28px; height: 28px; }
+
+.logo--lg .wordmark { font-size: var(--text-2xl); }
+.logo--lg .mark { width: 36px; height: 36px; }
