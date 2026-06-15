@@ -33,7 +33,7 @@ export function Header({ onMenuToggle }: HeaderProps) {
 
   return (
     <header className={styles.header}>
-      {/* Mobile burger */}
+      {/* Mobile menu (idk if we need it) */}
       <button
         className={styles.burger}
         onClick={onMenuToggle}
@@ -51,7 +51,7 @@ export function Header({ onMenuToggle }: HeaderProps) {
       <div className={styles.right}>
         <NotificationBell />
 
-        {/* Account popover */}
+        {/* Account pop_over */}
         <div className={styles.accountWrap} ref={accountRef}>
           <button
             className={styles.accountBtn}

@@ -21,7 +21,6 @@
   transition: transform var(--transition-base);
 }
 
-/* On desktop the sidebar is always visible via the app-shell layout */
 @media (max-width: 768px) {
   .sidebar {
     transform: translateX(-100%);
@@ -42,7 +41,6 @@
   flex-direction: column;
   gap: var(--s-4);
   padding: var(--s-16) var(--s-12);
-  /* Push nav down below header height */
   padding-top: calc(var(--topbar-height) + var(--s-16));
 }
 
