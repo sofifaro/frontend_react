@@ -8,7 +8,6 @@
   display: flex;
   flex-direction: column;
   min-width: 0;
-  /* offset the fixed sidebar on desktop */
   margin-left: var(--sidebar-width);
 }
 

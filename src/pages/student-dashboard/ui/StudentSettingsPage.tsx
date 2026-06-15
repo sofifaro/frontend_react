@@ -10,7 +10,7 @@ export function StudentSettingsPage() {
       <div className={styles.placeholder}>
         <div className={styles.placeholderBox}>
           <span className={styles.placeholderHint}>
-            Здесь будут настройки профиля и аккаунта
+            Для настроек нужен бэк -_-
           </span>
         </div>
       </div>

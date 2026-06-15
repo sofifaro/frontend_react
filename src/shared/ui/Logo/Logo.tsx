@@ -17,7 +17,6 @@ export function Logo({ onClick, light = false, size = 'md' }: LogoProps) {
       className={clsx(styles.logo, styles[`logo--${size}`], light && styles['logo--light'])}
       aria-label={APP_NAME}
     >
-      {/* Geometric mark: two overlapping squares — "S" shape abstracted */}
       <svg
         width="28"
         height="28"

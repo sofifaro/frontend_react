@@ -21,7 +21,7 @@ export function LandingPage() {
         </nav>
       </header>
 
-      {/* ── Hero ── */}
+      {/* Hero */}
       <main className={styles.hero}>
         <div className={styles.heroInner}>
           <p className={styles.eyebrow}>Образовательная платформа</p>

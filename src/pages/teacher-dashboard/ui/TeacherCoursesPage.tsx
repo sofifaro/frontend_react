@@ -10,7 +10,7 @@ export function TeacherCoursesPage() {
       <div className={styles.placeholder}>
         <div className={styles.placeholderBox}>
           <span className={styles.placeholderHint}>
-            Здесь будет список ваших курсов
+            Ждём бэк! ^-^
           </span>
         </div>
       </div>

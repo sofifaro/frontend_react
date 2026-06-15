@@ -10,7 +10,7 @@ export function TeacherSettingsPage() {
       <div className={styles.placeholder}>
         <div className={styles.placeholderBox}>
           <span className={styles.placeholderHint}>
-            Здесь будут настройки профиля и аккаунта
+            бэк бэк
           </span>
         </div>
       </div>

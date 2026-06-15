@@ -8,7 +8,7 @@ export function StudentDashboardPage() {
     <div className={styles.wrap}>
       <div className={styles.greeting}>
         <h1 className={styles.title}>
-          Привет, {user?.displayName ?? user?.username} 👋
+          Привет, {user?.displayName ?? user?.username} 
         </h1>
         <p className={styles.sub}>Продолжайте обучение с того места, где остановились</p>
       </div>
@@ -39,7 +39,7 @@ function Placeholder({ title }: { title: string }) {
       <p className={styles.placeholderTitle}>{title}</p>
       <div className={styles.placeholderBox}>
         <span className={styles.placeholderHint}>
-          Данные появятся после подключения бэкенда
+          Данные появятся после бэка:3
         </span>
       </div>
     </div>

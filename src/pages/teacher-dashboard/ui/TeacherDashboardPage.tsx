@@ -8,7 +8,7 @@ export function TeacherDashboardPage() {
     <div className={styles.wrap}>
       <div className={styles.greeting}>
         <h1 className={styles.title}>
-          Добрый день, {user?.displayName ?? user?.username} 👋
+          Добрый день, {user?.displayName ?? user?.username} 
         </h1>
         <p className={styles.sub}>Обзор вашей активности и курсов</p>
       </div>
@@ -38,7 +38,7 @@ function Placeholder({ title }: { title: string }) {
     <div className={styles.placeholder}>
       <p className={styles.placeholderTitle}>{title}</p>
       <div className={styles.placeholderBox}>
-        <span className={styles.placeholderHint}>Данные появятся после подключения бэкенда</span>
+        <span className={styles.placeholderHint}>Ожидаем бэкенд ._.</span>
       </div>
     </div>
   )

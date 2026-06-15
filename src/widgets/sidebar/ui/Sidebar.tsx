@@ -17,7 +17,7 @@ interface SidebarProps {
 export function Sidebar({ items, open = true, onClose }: SidebarProps) {
   return (
     <>
-      {/* Mobile backdrop */}
+      {/* Mobile backdrop (idk if we need it) */}
       {open && (
         <div
           className={styles.backdrop}
