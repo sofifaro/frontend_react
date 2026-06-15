@@ -30,6 +30,7 @@ npm run dev
 
 ## Структура проекта
 
+```
 src/
 ├── app/                        # Инициализация приложения
 │   ├── App.tsx                 # Корневой компонент
@@ -70,4 +71,5 @@ src/
         ├── Logo/
         ├── Avatar/
         └── styles/             # tokens.css + reset.css
+```        
 ---        
